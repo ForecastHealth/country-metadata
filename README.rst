@@ -4,24 +4,14 @@
 
 :Authors:
         Mike Spindel
-:Version: 2.1.1
+        Forecast Health Australia
+:Version: 0.0.1
 
 
 ISO 3166-1 defines two-letter, three-letter, and three-digit country
 codes.  `python-iso3166` is a self-contained module that converts
 between these codes and the corresponding country name.
 
-
-Installation
-============
-
-::
-
-  $ pip install iso3166
-
-
-Usage
-=====
 
 Country details
 ---------------

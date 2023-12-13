@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import iso3166
+import botech_metadata as iso3166
 
 
 def test_country_list() -> None:

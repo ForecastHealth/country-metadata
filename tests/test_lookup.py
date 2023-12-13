@@ -2,8 +2,8 @@
 
 from typing import List, Union
 import pytest
-import iso3166
-from iso3166 import countries
+import botech_metadata as iso3166
+from botech_metadata import countries
 
 
 def check_lookup(
