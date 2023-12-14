@@ -2,7 +2,8 @@
 
 import re
 from typing import Dict, List, Iterator, Type, TypeVar, Union, overload
-from botech_metadata.countries import Country, collect_country_data
+from .countries import Country, collect_country_data
+from .country_definitions import country_definitions
 from itertools import product
 
 __all__ = ["countries"]
@@ -11,7 +12,8 @@ StrOrInt = Union[str, int]
 _D = TypeVar("_D")
 
 
-_records = collect_country_data("botech_metadata/merged_country_data.csv")
+# _records = collect_country_data("botech_metadata/merged_country_data.csv")
+_records = country_definitions
 
 
 def _build_index(idx: int) -> Dict[str, Country]:
