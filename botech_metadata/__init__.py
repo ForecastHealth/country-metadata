@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import re
-from typing import Dict, List, Iterator, Type, TypeVar, Union, overload, Callable
+from typing import Dict, List, Iterator, Type, TypeVar, Union, overload
 from botech_metadata.countries import Country, collect_country_data
+from itertools import product
 
 __all__ = ["countries"]
 
@@ -133,6 +134,36 @@ class _CountryLookup:
                 if appendix_3 not in result:
                     result[appendix_3] = []
                 result[appendix_3].append(country)
+        return result
+
+    def countries_by_categories(self, *categories: str) -> Dict[str, List[Country]]:
+        """
+        Generate combinatorics of countries based on provided categories.
+
+        Args:
+            *categories (str): Variable number of category arguments like 'region', 'income', 'appendix_3'.
+
+        Returns:
+            Dict[str, List[Country]]: A dictionary with keys as category combinations and values as lists of countries.
+        """
+        categories = [cat.lower() for cat in categories]
+        valid_categories = ['region', 'income', 'appendix_3']
+        for cat in categories:
+            if cat not in valid_categories:
+                raise ValueError(f"Invalid category: {cat}")
+
+        # Create a list of sets for each category
+        category_sets = [set(getattr(country, cat) for country in _records) for cat in categories]
+
+        # Generate all possible combinations
+        combinations = product(*category_sets)
+
+        # Prepare the result dictionary
+        result = {}
+        for combo in combinations:
+            filtered_countries = [country for country in _records if all(getattr(country, cat) == value for cat, value in zip(categories, combo))]
+            result[', '.join(combo)] = filtered_countries
+
         return result
 
     __getitem__ = get

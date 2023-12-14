@@ -9,9 +9,8 @@ from botech_metadata import countries
 
 
 def main():
-    idx = sys.argv[1]
-    # query = sys.argv[2]
-    pprint.pprint(countries.countries_by_category(idx).keys())
+    args = sys.argv[1:]
+    pprint.pprint(countries.countries_by_categories(*args).keys())
 
 
 if __name__ == "__main__":
