@@ -10,7 +10,7 @@ country_definitions = [
         apolitical_name='Afghanistan',
         region='South Asia',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Åland Islands',
@@ -20,7 +20,7 @@ country_definitions = [
         apolitical_name='Åland Islands',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Albania',
@@ -30,7 +30,7 @@ country_definitions = [
         apolitical_name='Albania',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Algeria',
@@ -40,7 +40,7 @@ country_definitions = [
         apolitical_name='Algeria',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='American Samoa',
@@ -50,7 +50,7 @@ country_definitions = [
         apolitical_name='American Samoa',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Andorra',
@@ -60,7 +60,7 @@ country_definitions = [
         apolitical_name='Andorra',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Angola',
@@ -70,7 +70,7 @@ country_definitions = [
         apolitical_name='Angola',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Anguilla',
@@ -80,7 +80,7 @@ country_definitions = [
         apolitical_name='Anguilla',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Antarctica',
@@ -90,7 +90,7 @@ country_definitions = [
         apolitical_name='Antarctica',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Antigua and Barbuda',
@@ -100,7 +100,7 @@ country_definitions = [
         apolitical_name='Antigua and Barbuda',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Argentina',
@@ -110,7 +110,7 @@ country_definitions = [
         apolitical_name='Argentina',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Armenia',
@@ -120,7 +120,7 @@ country_definitions = [
         apolitical_name='Armenia',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Aruba',
@@ -130,7 +130,7 @@ country_definitions = [
         apolitical_name='Aruba',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Australia',
@@ -140,7 +140,7 @@ country_definitions = [
         apolitical_name='Australia',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Austria',
@@ -150,7 +150,7 @@ country_definitions = [
         apolitical_name='Austria',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Azerbaijan',
@@ -160,7 +160,7 @@ country_definitions = [
         apolitical_name='Azerbaijan',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bahamas',
@@ -170,7 +170,7 @@ country_definitions = [
         apolitical_name='Bahamas',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bahrain',
@@ -180,7 +180,7 @@ country_definitions = [
         apolitical_name='Bahrain',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bangladesh',
@@ -190,7 +190,7 @@ country_definitions = [
         apolitical_name='Bangladesh',
         region='South Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Barbados',
@@ -200,7 +200,7 @@ country_definitions = [
         apolitical_name='Barbados',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Belarus',
@@ -210,7 +210,7 @@ country_definitions = [
         apolitical_name='Belarus',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Belgium',
@@ -220,7 +220,7 @@ country_definitions = [
         apolitical_name='Belgium',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Belize',
@@ -230,7 +230,7 @@ country_definitions = [
         apolitical_name='Belize',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Benin',
@@ -240,7 +240,7 @@ country_definitions = [
         apolitical_name='Benin',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bermuda',
@@ -250,7 +250,7 @@ country_definitions = [
         apolitical_name='Bermuda',
         region='North America',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bhutan',
@@ -260,7 +260,7 @@ country_definitions = [
         apolitical_name='Bhutan',
         region='South Asia',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bolivia, Plurinational State of',
@@ -270,7 +270,7 @@ country_definitions = [
         apolitical_name='Bolivia, Plurinational State of',
         region='Latin America & Caribbean',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bonaire, Sint Eustatius and Saba',
@@ -280,7 +280,7 @@ country_definitions = [
         apolitical_name='Bonaire, Sint Eustatius and Saba',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bosnia and Herzegovina',
@@ -290,7 +290,7 @@ country_definitions = [
         apolitical_name='Bosnia and Herzegovina',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Botswana',
@@ -300,7 +300,7 @@ country_definitions = [
         apolitical_name='Botswana',
         region='Sub-Saharan Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bouvet Island',
@@ -310,7 +310,7 @@ country_definitions = [
         apolitical_name='Bouvet Island',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Brazil',
@@ -320,7 +320,7 @@ country_definitions = [
         apolitical_name='Brazil',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='British Indian Ocean Territory',
@@ -330,7 +330,7 @@ country_definitions = [
         apolitical_name='British Indian Ocean Territory',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Brunei Darussalam',
@@ -340,7 +340,7 @@ country_definitions = [
         apolitical_name='Brunei Darussalam',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Bulgaria',
@@ -350,7 +350,7 @@ country_definitions = [
         apolitical_name='Bulgaria',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Burkina Faso',
@@ -360,7 +360,7 @@ country_definitions = [
         apolitical_name='Burkina Faso',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Burundi',
@@ -370,7 +370,7 @@ country_definitions = [
         apolitical_name='Burundi',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Cambodia',
@@ -380,7 +380,7 @@ country_definitions = [
         apolitical_name='Cambodia',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Cameroon',
@@ -390,7 +390,7 @@ country_definitions = [
         apolitical_name='Cameroon',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Canada',
@@ -400,7 +400,7 @@ country_definitions = [
         apolitical_name='Canada',
         region='North America',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Cabo Verde',
@@ -410,7 +410,7 @@ country_definitions = [
         apolitical_name='Cabo Verde',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Cayman Islands',
@@ -420,7 +420,7 @@ country_definitions = [
         apolitical_name='Cayman Islands',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Central African Republic',
@@ -430,7 +430,7 @@ country_definitions = [
         apolitical_name='Central African Republic',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Chad',
@@ -440,7 +440,7 @@ country_definitions = [
         apolitical_name='Chad',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Chile',
@@ -450,7 +450,7 @@ country_definitions = [
         apolitical_name='Chile',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='China',
@@ -460,7 +460,7 @@ country_definitions = [
         apolitical_name='China',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Christmas Island',
@@ -470,7 +470,7 @@ country_definitions = [
         apolitical_name='Christmas Island',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Cocos (Keeling) Islands',
@@ -480,7 +480,7 @@ country_definitions = [
         apolitical_name='Cocos (Keeling) Islands',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Colombia',
@@ -490,7 +490,7 @@ country_definitions = [
         apolitical_name='Colombia',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Comoros',
@@ -500,7 +500,7 @@ country_definitions = [
         apolitical_name='Comoros',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Congo',
@@ -510,7 +510,7 @@ country_definitions = [
         apolitical_name='Congo',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Congo, Democratic Republic of the',
@@ -520,7 +520,7 @@ country_definitions = [
         apolitical_name='Congo, Democratic Republic of the',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Cook Islands',
@@ -530,7 +530,7 @@ country_definitions = [
         apolitical_name='Cook Islands',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Costa Rica',
@@ -540,7 +540,7 @@ country_definitions = [
         apolitical_name='Costa Rica',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name="Côte d'Ivoire",
@@ -550,7 +550,7 @@ country_definitions = [
         apolitical_name="Côte d'Ivoire",
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Croatia',
@@ -560,7 +560,7 @@ country_definitions = [
         apolitical_name='Croatia',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Cuba',
@@ -570,7 +570,7 @@ country_definitions = [
         apolitical_name='Cuba',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Curaçao',
@@ -580,7 +580,7 @@ country_definitions = [
         apolitical_name='Curaçao',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Cyprus',
@@ -590,7 +590,7 @@ country_definitions = [
         apolitical_name='Cyprus',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Czechia',
@@ -600,7 +600,7 @@ country_definitions = [
         apolitical_name='Czechia',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Denmark',
@@ -610,7 +610,7 @@ country_definitions = [
         apolitical_name='Denmark',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Djibouti',
@@ -620,7 +620,7 @@ country_definitions = [
         apolitical_name='Djibouti',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Dominica',
@@ -630,7 +630,7 @@ country_definitions = [
         apolitical_name='Dominica',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Dominican Republic',
@@ -640,7 +640,7 @@ country_definitions = [
         apolitical_name='Dominican Republic',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Ecuador',
@@ -650,7 +650,7 @@ country_definitions = [
         apolitical_name='Ecuador',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Egypt',
@@ -660,7 +660,7 @@ country_definitions = [
         apolitical_name='Egypt',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='El Salvador',
@@ -670,7 +670,7 @@ country_definitions = [
         apolitical_name='El Salvador',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Equatorial Guinea',
@@ -680,7 +680,7 @@ country_definitions = [
         apolitical_name='Equatorial Guinea',
         region='Sub-Saharan Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Eritrea',
@@ -690,7 +690,7 @@ country_definitions = [
         apolitical_name='Eritrea',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Estonia',
@@ -700,7 +700,7 @@ country_definitions = [
         apolitical_name='Estonia',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Ethiopia',
@@ -710,7 +710,7 @@ country_definitions = [
         apolitical_name='Ethiopia',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Falkland Islands (Malvinas)',
@@ -720,7 +720,7 @@ country_definitions = [
         apolitical_name='Falkland Islands (Malvinas)',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Faroe Islands',
@@ -730,7 +730,7 @@ country_definitions = [
         apolitical_name='Faroe Islands',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Fiji',
@@ -740,7 +740,7 @@ country_definitions = [
         apolitical_name='Fiji',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Finland',
@@ -750,7 +750,7 @@ country_definitions = [
         apolitical_name='Finland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='France',
@@ -760,7 +760,7 @@ country_definitions = [
         apolitical_name='France',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='French Guiana',
@@ -770,7 +770,7 @@ country_definitions = [
         apolitical_name='French Guiana',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='French Polynesia',
@@ -780,7 +780,7 @@ country_definitions = [
         apolitical_name='French Polynesia',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='French Southern Territories',
@@ -790,7 +790,7 @@ country_definitions = [
         apolitical_name='French Southern Territories',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Gabon',
@@ -800,7 +800,7 @@ country_definitions = [
         apolitical_name='Gabon',
         region='Sub-Saharan Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Gambia',
@@ -810,7 +810,7 @@ country_definitions = [
         apolitical_name='Gambia',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Georgia',
@@ -820,7 +820,7 @@ country_definitions = [
         apolitical_name='Georgia',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Germany',
@@ -830,7 +830,7 @@ country_definitions = [
         apolitical_name='Germany',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Ghana',
@@ -840,7 +840,7 @@ country_definitions = [
         apolitical_name='Ghana',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Gibraltar',
@@ -850,7 +850,7 @@ country_definitions = [
         apolitical_name='Gibraltar',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Greece',
@@ -860,7 +860,7 @@ country_definitions = [
         apolitical_name='Greece',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Greenland',
@@ -870,7 +870,7 @@ country_definitions = [
         apolitical_name='Greenland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Grenada',
@@ -880,7 +880,7 @@ country_definitions = [
         apolitical_name='Grenada',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Guadeloupe',
@@ -890,7 +890,7 @@ country_definitions = [
         apolitical_name='Guadeloupe',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Guam',
@@ -900,7 +900,7 @@ country_definitions = [
         apolitical_name='Guam',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Guatemala',
@@ -910,7 +910,7 @@ country_definitions = [
         apolitical_name='Guatemala',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Guernsey',
@@ -920,7 +920,7 @@ country_definitions = [
         apolitical_name='Guernsey',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Guinea',
@@ -930,7 +930,7 @@ country_definitions = [
         apolitical_name='Guinea',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Guinea-Bissau',
@@ -940,7 +940,7 @@ country_definitions = [
         apolitical_name='Guinea-Bissau',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Guyana',
@@ -950,7 +950,7 @@ country_definitions = [
         apolitical_name='Guyana',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Haiti',
@@ -960,7 +960,7 @@ country_definitions = [
         apolitical_name='Haiti',
         region='Latin America & Caribbean',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Heard Island and McDonald Islands',
@@ -970,7 +970,7 @@ country_definitions = [
         apolitical_name='Heard Island and McDonald Islands',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Holy See',
@@ -980,7 +980,7 @@ country_definitions = [
         apolitical_name='Holy See',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Honduras',
@@ -990,7 +990,7 @@ country_definitions = [
         apolitical_name='Honduras',
         region='Latin America & Caribbean',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Hong Kong',
@@ -1000,7 +1000,7 @@ country_definitions = [
         apolitical_name='Hong Kong',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Hungary',
@@ -1010,7 +1010,7 @@ country_definitions = [
         apolitical_name='Hungary',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Iceland',
@@ -1020,7 +1020,7 @@ country_definitions = [
         apolitical_name='Iceland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='India',
@@ -1030,7 +1030,7 @@ country_definitions = [
         apolitical_name='India',
         region='South Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Indonesia',
@@ -1040,7 +1040,7 @@ country_definitions = [
         apolitical_name='Indonesia',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Iran, Islamic Republic of',
@@ -1050,7 +1050,7 @@ country_definitions = [
         apolitical_name='Iran, Islamic Republic of',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Iraq',
@@ -1060,7 +1060,7 @@ country_definitions = [
         apolitical_name='Iraq',
         region='Middle East & North Africa',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Ireland',
@@ -1070,7 +1070,7 @@ country_definitions = [
         apolitical_name='Ireland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Isle of Man',
@@ -1080,7 +1080,7 @@ country_definitions = [
         apolitical_name='Isle of Man',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Israel',
@@ -1090,7 +1090,7 @@ country_definitions = [
         apolitical_name='Israel',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Italy',
@@ -1100,7 +1100,7 @@ country_definitions = [
         apolitical_name='Italy',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Jamaica',
@@ -1110,7 +1110,7 @@ country_definitions = [
         apolitical_name='Jamaica',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Japan',
@@ -1120,7 +1120,7 @@ country_definitions = [
         apolitical_name='Japan',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Jersey',
@@ -1130,7 +1130,7 @@ country_definitions = [
         apolitical_name='Jersey',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Jordan',
@@ -1140,7 +1140,7 @@ country_definitions = [
         apolitical_name='Jordan',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Kazakhstan',
@@ -1150,7 +1150,7 @@ country_definitions = [
         apolitical_name='Kazakhstan',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Kenya',
@@ -1160,7 +1160,7 @@ country_definitions = [
         apolitical_name='Kenya',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Kiribati',
@@ -1170,7 +1170,7 @@ country_definitions = [
         apolitical_name='Kiribati',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name="Korea, Democratic People's Republic of",
@@ -1180,7 +1180,7 @@ country_definitions = [
         apolitical_name="Korea, Democratic People's Republic of",
         region='East Asia & Pacific',
         income='Low income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Korea, Republic of',
@@ -1190,7 +1190,7 @@ country_definitions = [
         apolitical_name='Korea, Republic of',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Kosovo',
@@ -1200,7 +1200,7 @@ country_definitions = [
         apolitical_name='Kosovo',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Kuwait',
@@ -1210,7 +1210,7 @@ country_definitions = [
         apolitical_name='Kuwait',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Kyrgyzstan',
@@ -1220,7 +1220,7 @@ country_definitions = [
         apolitical_name='Kyrgyzstan',
         region='Europe & Central Asia',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name="Lao People's Democratic Republic",
@@ -1230,7 +1230,7 @@ country_definitions = [
         apolitical_name="Lao People's Democratic Republic",
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Latvia',
@@ -1240,7 +1240,7 @@ country_definitions = [
         apolitical_name='Latvia',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Lebanon',
@@ -1250,7 +1250,7 @@ country_definitions = [
         apolitical_name='Lebanon',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Lesotho',
@@ -1260,7 +1260,7 @@ country_definitions = [
         apolitical_name='Lesotho',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Liberia',
@@ -1270,7 +1270,7 @@ country_definitions = [
         apolitical_name='Liberia',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Libya',
@@ -1280,7 +1280,7 @@ country_definitions = [
         apolitical_name='Libya',
         region='Middle East & North Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Liechtenstein',
@@ -1290,7 +1290,7 @@ country_definitions = [
         apolitical_name='Liechtenstein',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Lithuania',
@@ -1300,7 +1300,7 @@ country_definitions = [
         apolitical_name='Lithuania',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Luxembourg',
@@ -1310,7 +1310,7 @@ country_definitions = [
         apolitical_name='Luxembourg',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Macao',
@@ -1320,7 +1320,7 @@ country_definitions = [
         apolitical_name='Macao',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='North Macedonia',
@@ -1330,7 +1330,7 @@ country_definitions = [
         apolitical_name='North Macedonia',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Madagascar',
@@ -1340,7 +1340,7 @@ country_definitions = [
         apolitical_name='Madagascar',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Malawi',
@@ -1350,7 +1350,7 @@ country_definitions = [
         apolitical_name='Malawi',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Malaysia',
@@ -1360,7 +1360,7 @@ country_definitions = [
         apolitical_name='Malaysia',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Maldives',
@@ -1370,7 +1370,7 @@ country_definitions = [
         apolitical_name='Maldives',
         region='South Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Mali',
@@ -1380,7 +1380,7 @@ country_definitions = [
         apolitical_name='Mali',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Malta',
@@ -1390,7 +1390,7 @@ country_definitions = [
         apolitical_name='Malta',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Marshall Islands',
@@ -1400,7 +1400,7 @@ country_definitions = [
         apolitical_name='Marshall Islands',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Martinique',
@@ -1410,7 +1410,7 @@ country_definitions = [
         apolitical_name='Martinique',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Mauritania',
@@ -1420,7 +1420,7 @@ country_definitions = [
         apolitical_name='Mauritania',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Mauritius',
@@ -1430,7 +1430,7 @@ country_definitions = [
         apolitical_name='Mauritius',
         region='Sub-Saharan Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Mayotte',
@@ -1440,7 +1440,7 @@ country_definitions = [
         apolitical_name='Mayotte',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Mexico',
@@ -1450,7 +1450,7 @@ country_definitions = [
         apolitical_name='Mexico',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Micronesia, Federated States of',
@@ -1460,7 +1460,7 @@ country_definitions = [
         apolitical_name='Micronesia, Federated States of',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Moldova, Republic of',
@@ -1470,7 +1470,7 @@ country_definitions = [
         apolitical_name='Moldova, Republic of',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Monaco',
@@ -1480,7 +1480,7 @@ country_definitions = [
         apolitical_name='Monaco',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Mongolia',
@@ -1490,7 +1490,7 @@ country_definitions = [
         apolitical_name='Mongolia',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Montenegro',
@@ -1500,7 +1500,7 @@ country_definitions = [
         apolitical_name='Montenegro',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Montserrat',
@@ -1510,7 +1510,7 @@ country_definitions = [
         apolitical_name='Montserrat',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Morocco',
@@ -1520,7 +1520,7 @@ country_definitions = [
         apolitical_name='Morocco',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Mozambique',
@@ -1530,7 +1530,7 @@ country_definitions = [
         apolitical_name='Mozambique',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Myanmar',
@@ -1540,7 +1540,7 @@ country_definitions = [
         apolitical_name='Myanmar',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Namibia',
@@ -1550,7 +1550,7 @@ country_definitions = [
         apolitical_name='Namibia',
         region='Sub-Saharan Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Nauru',
@@ -1560,7 +1560,7 @@ country_definitions = [
         apolitical_name='Nauru',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Nepal',
@@ -1570,7 +1570,7 @@ country_definitions = [
         apolitical_name='Nepal',
         region='South Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Netherlands',
@@ -1580,7 +1580,7 @@ country_definitions = [
         apolitical_name='Netherlands',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='New Caledonia',
@@ -1590,7 +1590,7 @@ country_definitions = [
         apolitical_name='New Caledonia',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='New Zealand',
@@ -1600,7 +1600,7 @@ country_definitions = [
         apolitical_name='New Zealand',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Nicaragua',
@@ -1610,7 +1610,7 @@ country_definitions = [
         apolitical_name='Nicaragua',
         region='Latin America & Caribbean',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Niger',
@@ -1620,7 +1620,7 @@ country_definitions = [
         apolitical_name='Niger',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Nigeria',
@@ -1630,7 +1630,7 @@ country_definitions = [
         apolitical_name='Nigeria',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Niue',
@@ -1640,7 +1640,7 @@ country_definitions = [
         apolitical_name='Niue',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Norfolk Island',
@@ -1650,7 +1650,7 @@ country_definitions = [
         apolitical_name='Norfolk Island',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Northern Mariana Islands',
@@ -1660,7 +1660,7 @@ country_definitions = [
         apolitical_name='Northern Mariana Islands',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Norway',
@@ -1670,7 +1670,7 @@ country_definitions = [
         apolitical_name='Norway',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Oman',
@@ -1680,7 +1680,7 @@ country_definitions = [
         apolitical_name='Oman',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Pakistan',
@@ -1690,7 +1690,7 @@ country_definitions = [
         apolitical_name='Pakistan',
         region='South Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Palau',
@@ -1700,7 +1700,7 @@ country_definitions = [
         apolitical_name='Palau',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Palestine, State of',
@@ -1710,7 +1710,7 @@ country_definitions = [
         apolitical_name='Palestine',
         region='Middle East & North Africa',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Panama',
@@ -1720,7 +1720,7 @@ country_definitions = [
         apolitical_name='Panama',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Papua New Guinea',
@@ -1730,7 +1730,7 @@ country_definitions = [
         apolitical_name='Papua New Guinea',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Paraguay',
@@ -1740,7 +1740,7 @@ country_definitions = [
         apolitical_name='Paraguay',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Peru',
@@ -1750,7 +1750,7 @@ country_definitions = [
         apolitical_name='Peru',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Philippines',
@@ -1760,7 +1760,7 @@ country_definitions = [
         apolitical_name='Philippines',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Pitcairn',
@@ -1770,7 +1770,7 @@ country_definitions = [
         apolitical_name='Pitcairn',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Poland',
@@ -1780,7 +1780,7 @@ country_definitions = [
         apolitical_name='Poland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Portugal',
@@ -1790,7 +1790,7 @@ country_definitions = [
         apolitical_name='Portugal',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Puerto Rico',
@@ -1800,7 +1800,7 @@ country_definitions = [
         apolitical_name='Puerto Rico',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Qatar',
@@ -1810,7 +1810,7 @@ country_definitions = [
         apolitical_name='Qatar',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Réunion',
@@ -1820,7 +1820,7 @@ country_definitions = [
         apolitical_name='Réunion',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Romania',
@@ -1830,7 +1830,7 @@ country_definitions = [
         apolitical_name='Romania',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Russian Federation',
@@ -1840,7 +1840,7 @@ country_definitions = [
         apolitical_name='Russian Federation',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Rwanda',
@@ -1850,7 +1850,7 @@ country_definitions = [
         apolitical_name='Rwanda',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Saint Barthélemy',
@@ -1860,7 +1860,7 @@ country_definitions = [
         apolitical_name='Saint Barthélemy',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saint Helena, Ascension and Tristan da Cunha',
@@ -1870,7 +1870,7 @@ country_definitions = [
         apolitical_name='Saint Helena, Ascension and Tristan da Cunha',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saint Kitts and Nevis',
@@ -1880,7 +1880,7 @@ country_definitions = [
         apolitical_name='Saint Kitts and Nevis',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saint Lucia',
@@ -1890,7 +1890,7 @@ country_definitions = [
         apolitical_name='Saint Lucia',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saint Martin (French part)',
@@ -1900,7 +1900,7 @@ country_definitions = [
         apolitical_name='Saint Martin (French part)',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saint Pierre and Miquelon',
@@ -1910,7 +1910,7 @@ country_definitions = [
         apolitical_name='Saint Pierre and Miquelon',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saint Vincent and the Grenadines',
@@ -1920,7 +1920,7 @@ country_definitions = [
         apolitical_name='Saint Vincent and the Grenadines',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Samoa',
@@ -1930,7 +1930,7 @@ country_definitions = [
         apolitical_name='Samoa',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='San Marino',
@@ -1940,7 +1940,7 @@ country_definitions = [
         apolitical_name='San Marino',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Sao Tome and Principe',
@@ -1950,7 +1950,7 @@ country_definitions = [
         apolitical_name='Sao Tome and Principe',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Saudi Arabia',
@@ -1960,7 +1960,7 @@ country_definitions = [
         apolitical_name='Saudi Arabia',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Senegal',
@@ -1970,7 +1970,7 @@ country_definitions = [
         apolitical_name='Senegal',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Serbia',
@@ -1980,7 +1980,7 @@ country_definitions = [
         apolitical_name='Serbia',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Seychelles',
@@ -1990,7 +1990,7 @@ country_definitions = [
         apolitical_name='Seychelles',
         region='Sub-Saharan Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Sierra Leone',
@@ -2000,7 +2000,7 @@ country_definitions = [
         apolitical_name='Sierra Leone',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Singapore',
@@ -2010,7 +2010,7 @@ country_definitions = [
         apolitical_name='Singapore',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Sint Maarten (Dutch part)',
@@ -2020,7 +2020,7 @@ country_definitions = [
         apolitical_name='Sint Maarten (Dutch part)',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Slovakia',
@@ -2030,7 +2030,7 @@ country_definitions = [
         apolitical_name='Slovakia',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Slovenia',
@@ -2040,7 +2040,7 @@ country_definitions = [
         apolitical_name='Slovenia',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Solomon Islands',
@@ -2050,7 +2050,7 @@ country_definitions = [
         apolitical_name='Solomon Islands',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Somalia',
@@ -2060,7 +2060,7 @@ country_definitions = [
         apolitical_name='Somalia',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='South Africa',
@@ -2070,7 +2070,7 @@ country_definitions = [
         apolitical_name='South Africa',
         region='Sub-Saharan Africa',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='South Georgia and the South Sandwich Islands',
@@ -2080,7 +2080,7 @@ country_definitions = [
         apolitical_name='South Georgia and the South Sandwich Islands',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='South Sudan',
@@ -2090,7 +2090,7 @@ country_definitions = [
         apolitical_name='South Sudan',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Spain',
@@ -2100,7 +2100,7 @@ country_definitions = [
         apolitical_name='Spain',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Sri Lanka',
@@ -2110,7 +2110,7 @@ country_definitions = [
         apolitical_name='Sri Lanka',
         region='South Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Sudan',
@@ -2120,7 +2120,7 @@ country_definitions = [
         apolitical_name='Sudan',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Suriname',
@@ -2130,7 +2130,7 @@ country_definitions = [
         apolitical_name='Suriname',
         region='Latin America & Caribbean',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Svalbard and Jan Mayen',
@@ -2140,7 +2140,7 @@ country_definitions = [
         apolitical_name='Svalbard and Jan Mayen',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Eswatini',
@@ -2150,7 +2150,7 @@ country_definitions = [
         apolitical_name='Eswatini',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Sweden',
@@ -2160,7 +2160,7 @@ country_definitions = [
         apolitical_name='Sweden',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Switzerland',
@@ -2170,7 +2170,7 @@ country_definitions = [
         apolitical_name='Switzerland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Syrian Arab Republic',
@@ -2180,7 +2180,7 @@ country_definitions = [
         apolitical_name='Syrian Arab Republic',
         region='Middle East & North Africa',
         income='Low income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Taiwan, Province of China',
@@ -2190,7 +2190,7 @@ country_definitions = [
         apolitical_name='Taiwan',
         region='East Asia & Pacific',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Tajikistan',
@@ -2200,7 +2200,7 @@ country_definitions = [
         apolitical_name='Tajikistan',
         region='Europe & Central Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Tanzania, United Republic of',
@@ -2210,7 +2210,7 @@ country_definitions = [
         apolitical_name='Tanzania, United Republic of',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Thailand',
@@ -2220,7 +2220,7 @@ country_definitions = [
         apolitical_name='Thailand',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Timor-Leste',
@@ -2230,7 +2230,7 @@ country_definitions = [
         apolitical_name='Timor-Leste',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Togo',
@@ -2240,7 +2240,7 @@ country_definitions = [
         apolitical_name='Togo',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Tokelau',
@@ -2250,7 +2250,7 @@ country_definitions = [
         apolitical_name='Tokelau',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Tonga',
@@ -2260,7 +2260,7 @@ country_definitions = [
         apolitical_name='Tonga',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Trinidad and Tobago',
@@ -2270,7 +2270,7 @@ country_definitions = [
         apolitical_name='Trinidad and Tobago',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Tunisia',
@@ -2280,7 +2280,7 @@ country_definitions = [
         apolitical_name='Tunisia',
         region='Middle East & North Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Türkiye',
@@ -2290,7 +2290,7 @@ country_definitions = [
         apolitical_name='Türkiye',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Turkmenistan',
@@ -2300,7 +2300,7 @@ country_definitions = [
         apolitical_name='Turkmenistan',
         region='Europe & Central Asia',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Turks and Caicos Islands',
@@ -2310,7 +2310,7 @@ country_definitions = [
         apolitical_name='Turks and Caicos Islands',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Tuvalu',
@@ -2320,7 +2320,7 @@ country_definitions = [
         apolitical_name='Tuvalu',
         region='East Asia & Pacific',
         income='Upper middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Uganda',
@@ -2330,7 +2330,7 @@ country_definitions = [
         apolitical_name='Uganda',
         region='Sub-Saharan Africa',
         income='Low income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Ukraine',
@@ -2340,7 +2340,7 @@ country_definitions = [
         apolitical_name='Ukraine',
         region='Europe & Central Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='United Arab Emirates',
@@ -2350,7 +2350,7 @@ country_definitions = [
         apolitical_name='United Arab Emirates',
         region='Middle East & North Africa',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='United Kingdom of Great Britain and Northern Ireland',
@@ -2360,7 +2360,7 @@ country_definitions = [
         apolitical_name='United Kingdom of Great Britain and Northern Ireland',
         region='Europe & Central Asia',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='United States of America',
@@ -2370,7 +2370,7 @@ country_definitions = [
         apolitical_name='United States of America',
         region='North America',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='United States Minor Outlying Islands',
@@ -2380,7 +2380,7 @@ country_definitions = [
         apolitical_name='United States Minor Outlying Islands',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Uruguay',
@@ -2390,7 +2390,7 @@ country_definitions = [
         apolitical_name='Uruguay',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Uzbekistan',
@@ -2400,7 +2400,7 @@ country_definitions = [
         apolitical_name='Uzbekistan',
         region='Europe & Central Asia',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Vanuatu',
@@ -2410,7 +2410,7 @@ country_definitions = [
         apolitical_name='Vanuatu',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Venezuela, Bolivarian Republic of',
@@ -2420,7 +2420,7 @@ country_definitions = [
         apolitical_name='Venezuela, Bolivarian Republic of',
         region='Latin America & Caribbean',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Viet Nam',
@@ -2430,7 +2430,7 @@ country_definitions = [
         apolitical_name='Viet Nam',
         region='East Asia & Pacific',
         income='Lower middle income',
-        appendix_3='In Appendix 3'
+        appendix_3=True
     ),
     Country(
         name='Virgin Islands, British',
@@ -2440,7 +2440,7 @@ country_definitions = [
         apolitical_name='Virgin Islands, British',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Virgin Islands, U.S.',
@@ -2450,7 +2450,7 @@ country_definitions = [
         apolitical_name='Virgin Islands, U.S.',
         region='Latin America & Caribbean',
         income='High income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Wallis and Futuna',
@@ -2460,7 +2460,7 @@ country_definitions = [
         apolitical_name='Wallis and Futuna',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Western Sahara',
@@ -2470,7 +2470,7 @@ country_definitions = [
         apolitical_name='Western Sahara',
         region='No Region',
         income='No Income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Yemen',
@@ -2480,7 +2480,7 @@ country_definitions = [
         apolitical_name='Yemen',
         region='Middle East & North Africa',
         income='Low income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Zambia',
@@ -2490,7 +2490,7 @@ country_definitions = [
         apolitical_name='Zambia',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     ),
     Country(
         name='Zimbabwe',
@@ -2500,6 +2500,6 @@ country_definitions = [
         apolitical_name='Zimbabwe',
         region='Sub-Saharan Africa',
         income='Lower middle income',
-        appendix_3='Not in Appendix 3'
+        appendix_3=False
     )
 ]

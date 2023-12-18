@@ -16,8 +16,11 @@ _D = TypeVar("_D")
 _records = country_definitions
 
 
-def _build_index(idx: int) -> Dict[str, Country]:
-    return dict((r[idx].upper(), r) for r in _records)
+def _build_index(idx: int, is_bool: bool = False) -> Dict[str, Country]:
+    if is_bool:
+        return dict((str(r[idx]), r) for r in _records)
+    else:
+        return dict((r[idx].upper(), r) for r in _records)
 
 
 # Internal country indexes
@@ -28,7 +31,7 @@ _by_name = _build_index(0)
 _by_apolitical_name = _build_index(4)
 _by_region = _build_index(5)
 _by_income = _build_index(6)
-_by_appendix_3 = _build_index(7)
+_by_appendix_3 = _build_index(7, is_bool=True)
 
 
 # Documented accessors for the country indexes
@@ -112,7 +115,8 @@ class _CountryLookup:
         elif index == 'income':
             return [country for country in _records if country.income.upper() == query]
         elif index == 'appendix_3':
-            return [country for country in _records if country.appendix_3.upper() == query]
+            query_bool = query.lower() in ["true", "1", "yes"]
+            return [country for country in _records if country.appendix_3 == query_bool]  
         else:
             raise ValueError(f"Invalid index: {index}")
 
@@ -132,7 +136,7 @@ class _CountryLookup:
                 result[income].append(country)
         elif category == 'appendix_3':
             for country in _records:
-                appendix_3 = country.appendix_3.upper()
+                appendix_3 = country.appendix_3
                 if appendix_3 not in result:
                     result[appendix_3] = []
                 result[appendix_3].append(country)
@@ -163,9 +167,10 @@ class _CountryLookup:
         # Prepare the result dictionary
         result = {}
         for combo in combinations:
+            # Convert all elements of combo to strings
+            combo_str = ', '.join(str(value) for value in combo)
             filtered_countries = [country for country in _records if all(getattr(country, cat) == value for cat, value in zip(categories, combo))]
-            result[', '.join(combo)] = filtered_countries
-
+            result[combo_str] = filtered_countries
         return result
 
     __getitem__ = get

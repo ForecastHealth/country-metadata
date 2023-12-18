@@ -10,7 +10,7 @@ from botech_metadata import countries
 
 def main():
     args = sys.argv[1:]
-    pprint.pprint(countries.countries_by_categories(*args).keys())
+    pprint.pprint(countries.countries_by_categories(*args))
 
 
 if __name__ == "__main__":
