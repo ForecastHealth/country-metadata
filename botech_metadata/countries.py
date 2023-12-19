@@ -1,4 +1,4 @@
-from typing import NamedTuple, List, Optional
+from typing import NamedTuple, List
 import csv
 
 
@@ -10,7 +10,7 @@ class Country(NamedTuple):
     apolitical_name: str
     region: str = "No Region"
     income: str = "No Income Status"
-    appendix_3: int = "Not in Appendix 3"
+    appendix_3: bool = False
 
 
 def collect_country_data(fp: str) -> List[Country]:
