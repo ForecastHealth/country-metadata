@@ -1,8 +1,11 @@
+from dataclasses import dataclass
 from typing import NamedTuple, List
+from .who_regions import ccn3_to_region
 import csv
 
 
-class Country(NamedTuple):
+@dataclass
+class Country:
     name: str
     alpha2: str
     alpha3: str
@@ -11,6 +14,9 @@ class Country(NamedTuple):
     region: str = "No Region"
     income: str = "No Income Status"
     appendix_3: bool = False
+
+    def __post_init__(self):
+        self.who_region = ccn3_to_region.get(self.numeric, "No Region")
 
 
 def collect_country_data(fp: str) -> List[Country]:
