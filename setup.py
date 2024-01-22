@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="botech-metadata",
-    version="0.0.1",
+    name="country-metadata",
+    version="1.0.0",
     packages=find_packages()
 )
