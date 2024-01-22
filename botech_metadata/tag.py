@@ -26,11 +26,7 @@ class Tag:
 ACCEPTED_TAGS = [
     Tag(
         label="appendix_3",
-        description="""
-        Whether or not Appendix 3 appeared in the 2022 WHO NCD Appendix 3 analysis.
-        A 1 indicates that the country appeared in the analysis,
-        a 0 indicates that it did not
-        """,
+        description="Whether or not Appendix 3 appeared in the 2022 WHO NCD Appendix 3 analysis.",
         mapping_property="alpha3",
         data=iso3_to_appendix_3
     ),
@@ -48,10 +44,8 @@ ACCEPTED_TAGS = [
     ),
     Tag(
         label="who_region",
-        description="",
+        description="The WHO region classification.",
         mapping_property="numeric",
         data=ccn3_to_who_region
     )
 ]
-
-

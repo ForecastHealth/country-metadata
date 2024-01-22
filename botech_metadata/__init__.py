@@ -3,7 +3,7 @@ __init__.py
 
 Contains the API for interacting with botech-metadata
 """
-from typing import Union, Optional, List, Dict
+from typing import Union, Optional, List, Dict, Tuple
 from itertools import product
 from .country import Country, countries
 from .tag import ACCEPTED_TAGS, Tag
@@ -22,6 +22,10 @@ def get_country(identifier: Union[str, int]) -> Optional[Country]:
                 ):
                 return country
     return None
+
+
+def list_tags() -> List[Tuple[str, str]]:
+    return [(tag.label, tag.description) for tag in ACCEPTED_TAGS]
 
 
 def get_tag(identifier: str, tag_label: str) -> Optional[str]:
