@@ -75,6 +75,7 @@ def get_countries_by_tags(*tags: str) -> Dict[str, List[Country]]:
 
 
 __all__ = [
+    "countries",
     "get_country",
     "get_tag",
     "get_countries_by_tags"
