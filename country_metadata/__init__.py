@@ -6,21 +6,44 @@ Contains the API for interacting with botech-metadata
 from typing import Union, Optional, List, Dict, Tuple
 from itertools import product
 from .country import Country, countries
+from .preprocessing import preprocess_country_name
 from .tag import ACCEPTED_TAGS, Tag
+from fuzzywuzzy import fuzz
 
+def get_country(
+    identifier: Union[str, int],
+    threshold: int = 80
+) -> Optional[Country]:
+    if isinstance(identifier, str):
+        identifier = preprocess_country_name(identifier)
 
-def get_country(identifier: Union[str, int]) -> Optional[Country]:
     for country in countries:
         if isinstance(identifier, int):
             if country.numeric == identifier:
                 return country
-        else: 
+        else:
+            preprocessed_name = preprocess_country_name(country.name)
             if (
                 country.alpha2 == identifier
                 or country.alpha3 == identifier
-                or country.name.lower() == identifier.lower()
-                ):
+                or preprocessed_name.lower() == identifier.lower()
+                or identifier.lower() in preprocessed_name.lower()
+            ):
                 return country
+
+    # If no direct match is found, perform fuzzy matching
+    best_match = None
+    best_ratio = 0
+    for country in countries:
+        preprocessed_name = preprocess_country_name(country.name)
+        ratio = fuzz.ratio(identifier.lower(), preprocessed_name.lower())
+        if ratio > best_ratio:
+            best_match = country
+            best_ratio = ratio
+
+    if best_ratio >= threshold:
+        return best_match
+
     return None
 
 
