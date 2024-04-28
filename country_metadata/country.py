@@ -23,7 +23,7 @@ class Country:
     name: str
     alpha2: str
     alpha3: str
-    numeric: str
+    numeric: int
     apolitical_name: str
 
 
