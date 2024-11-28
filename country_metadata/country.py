@@ -28,6 +28,87 @@ class Country:
 
 
 countries = [
+    # WORLD - This is not a real set of codes, but is used for convenience
+    Country(
+        name='World',
+        alpha2='ZZ',
+        alpha3='ZZZ',
+        numeric=900, # Compliant with IARC and UNDP WPP
+        apolitical_name='World',
+    ),
+    # WHO REGIONS - Not a real set of codes, but is used for convenience
+    Country(
+        name='AFRO',
+        alpha2='AA',
+        alpha3='AFR',
+        numeric=991, # Compliant with IARC
+        apolitical_name='WHO Region AFRO',
+    ),
+    Country(
+        name='PAHO',
+        alpha2='PP',
+        alpha3='PAH',
+        numeric=992, # Compliant with IARC
+        apolitical_name='WHO Region PAHO',
+    ),
+    Country(
+        name='EMRO',
+        alpha2='EM',
+        alpha3='EMR',
+        numeric=993, # Compliant with IARC
+        apolitical_name='WHO Region EMRO',
+    ),
+    Country(
+        name='EURO',
+        alpha2='EU',
+        alpha3='EUR',
+        numeric=994, # Compliant with IARC
+        apolitical_name='WHO Region EURO',
+    ),
+    Country(
+        name='SEARO',
+        alpha2='SQ',
+        alpha3='SEA',
+        numeric=995, # Compliant with IARC
+        apolitical_name='WHO Region SEARO',
+    ),
+    Country(
+        name='WPRO',
+        alpha2='WP',
+        alpha3='WPR',
+        numeric=996, # Compliant with IARC
+        apolitical_name='WHO Region WPRO',
+    ),
+    # WB INCOME REGIONS - Not a real set of codes, but is used for convenience
+    Country(
+        name='High Income',
+        alpha2='HI',
+        alpha3='HIG',
+        numeric=987, # Compliant with IARC
+        apolitical_name='WBI - High Income',
+    ),
+    Country(
+        name='Upper-Middle Income',
+        alpha2='UP',
+        alpha3='UPP',
+        numeric=988, # Compliant with IARC
+        apolitical_name='WBI - Upper-Middle Income',
+    ),
+    Country(
+        name='Lower-Middle Income',
+        alpha2='LM',
+        alpha3='LMI',
+        numeric=989, # Compliant with IARC
+        apolitical_name='WBI - Lower-Middle Income',
+    ),
+    Country(
+        name='Low Income',
+        alpha2='LO',
+        alpha3='LOW',
+        numeric=990, # Compliant with IARC and UNDP WPP
+        apolitical_name='WBI - Low Income',
+    ),
+    # ACTUAL COUNTRIES
     Country(
         name='Afghanistan',
         alpha2='AF',
