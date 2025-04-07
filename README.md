@@ -8,6 +8,29 @@ cd country-metadata
 pip install .
 ```
 
+# Scripts
+The repository contains several utility scripts in the `scripts/` directory:
+
+## post_countries.py
+This script posts all countries with their metadata to an API endpoint. It:
+- Iterates through all actual countries (filtering out non-countries)
+- Retrieves their metadata including tags (wbRegion, wbIncomeLevel, appendix3, whoRegion)
+- Posts each country to the API endpoint
+
+Usage:
+```bash
+# First, create a .env file with your API URL (see .env.example)
+cp .env.example .env
+# Edit the .env file with your actual API URL
+nano .env
+
+# Install required dependencies
+pip install python-dotenv requests
+
+# Run the script
+python scripts/post_countries.py
+```
+
 # Basic Features
 ## Country
 There is a list of countries which are hard coded, and contain the following information:
