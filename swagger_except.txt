@@ -1,0 +1,225 @@
+    "/v1/countries/": {
+      "get": {
+        "description": "Get all countries with pagination and filtering",
+        "parameters": [
+          {
+            "name": "wbRegion",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "wbIncomeLevel",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "appendix3",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "type": "string"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved countries",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "string",
+                  "example": "success"
+                },
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "countries": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "iso3": {
+                            "type": "string",
+                            "example": "USA"
+                          },
+                          "name": {
+                            "type": "string",
+                            "example": "United States of America"
+                          },
+                          "alpha2": {
+                            "type": "string",
+                            "example": "US"
+                          },
+                          "numericCode": {
+                            "type": "number",
+                            "example": 840
+                          },
+                          "apoliticalName": {
+                            "type": "string",
+                            "example": "United States"
+                          },
+                          "wbIncomeLevel": {
+                            "type": "string",
+                            "example": "High income"
+                          },
+                          "wbRegion": {
+                            "type": "string",
+                            "example": "North America"
+                          },
+                          "appendix3": {
+                            "type": "boolean",
+                            "example": true
+                          },
+                          "whoRegion": {
+                            "type": "string",
+                            "example": "Americas"
+                          }
+                        }
+                      }
+                    },
+                    "pagination": {
+                      "type": "object",
+                      "properties": {
+                        "page": {
+                          "type": "number",
+                          "example": 1
+                        },
+                        "limit": {
+                          "type": "number",
+                          "example": 10
+                        },
+                        "totalCount": {
+                          "type": "number",
+                          "example": 250
+                        },
+                        "totalPages": {
+                          "type": "number",
+                          "example": 25
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "description": "Create a new country",
+        "responses": {
+          "201": {
+            "description": "Successfully created country",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "string",
+                  "example": "success"
+                },
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "country": {
+                      "type": "object",
+                      "properties": {
+                        "iso3": {
+                          "type": "string",
+                          "example": "USA"
+                        },
+                        "name": {
+                          "type": "string",
+                          "example": "United States of America"
+                        },
+                        "alpha2": {
+                          "type": "string",
+                          "example": "US"
+                        },
+                        "numericCode": {
+                          "type": "number",
+                          "example": 840
+                        },
+                        "apoliticalName": {
+                          "type": "string",
+                          "example": "United States"
+                        },
+                        "wbIncomeLevel": {
+                          "type": "string",
+                          "example": "High income"
+                        },
+                        "wbRegion": {
+                          "type": "string",
+                          "example": "North America"
+                        },
+                        "appendix3": {
+                          "type": "boolean",
+                          "example": true
+                        },
+                        "whoRegion": {
+                          "type": "string",
+                          "example": "Americas"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          },
+          "400": {
+            "description": "Validation error",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "string",
+                  "example": "error"
+                },
+                "message": {
+                  "type": "string",
+                  "example": "Validation error"
+                },
+                "errors": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "array",
+                        "example": [
+                          "iso3"
+                        ],
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "ISO3 must be a 3-letter code"
+                      }
+                    }
+                  }
+                }
+              },
+              "xml": {
+                "name": "main"
+              }
+            }
+          }
+        }
+      }
+    },
