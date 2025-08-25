@@ -89,7 +89,7 @@ iso3_to_who_region_2025 = {
     "HKG": "Western Pacific",
     "HUN": "Europe",
     "ISL": "Europe",
-    "IND": "South-East Asia",
+    "IND": "Western Pacific",
     "IDN": "South-East Asia",
     "IRN": "Eastern Mediterranean",
     "IRQ": "Eastern Mediterranean",
