@@ -13,6 +13,7 @@ from .tags import (
     iso3_to_wb_income_level,
     iso3_to_wb_region,
     ccn3_to_who_region,
+    iso3_to_who_region_2025,
 )
 
 @dataclass
@@ -47,5 +48,11 @@ ACCEPTED_TAGS = [
         description="The WHO region classification.",
         mapping_property="numeric",
         data=ccn3_to_who_region
+    ),
+    Tag(
+        label="who_region_2025",
+        description="The WHO region classification (2025 update).",
+        mapping_property="alpha3",
+        data=iso3_to_who_region_2025
     )
 ]
